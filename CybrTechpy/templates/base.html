@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberTech.py | {% block title %}{% endblock %}</title>
+
+    {% comment %} index links {% endcomment %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+
+    {% comment %} category links {% endcomment %}
+    <link rel="stylesheet" href="{% static 'css/category.css' %}">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous">
+    
+    </script>
+
+    {% comment %} Contact_us links {% endcomment %}
+    {% comment %} <link rel="stylesheet" href="{% static 'css/contactus.css' %}"> {% endcomment %}
+
+    {% comment %} <link rel="stylesheet" href="{% static 'css/service.css' %}"> {% endcomment %}
+
+    {% comment %} <link rel="stylesheet" href="{% static 'css/contactus.css' %}"> {% endcomment %}
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <a id="logo"><img src="{% static 'imgs/png/cybertech-low-resolution-logo-transparent (1).png' %}"
+                    alt=""></a>
+            <a id="home" href="/">Home</a>
+            <a id="home" href="/category/">Learning</a>
+            <a id="home" href="#">Team</a>
+            <a id="home" href="/services/">Services</a>
+            <a id="home" href="/contactus/">Contact us</a>
+            <a class="get-started" href="#">Get Started</a>
+        </nav>
+    </header>
+
+
+    {% block body %}
+
+    {% endblock body %}
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img id="footer-logo" src="{% static 'imgs/png/12.png' %}" alt="Your Logo">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="/services/">Services</a></li>
+                    <li><a href="/contactus/">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-info">
+            <p>&copy; 2023 Cybertech</p>
+            <p>Contact: info@Cybertech.py</p>
+        </div>
+    </footer>
+    </div>
+    <script src="{% static 'js/category.js' %}"></script>
+</body>
+
+</html>

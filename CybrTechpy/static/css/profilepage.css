@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-right: 30cap;
+}
+
+#profile{
+    border-radius: 50%;
+    border-style: solid;
+    width: 100px;
+    transform: scale(1.5);
+    transition: all 0.5s;
+    margin-left: 30%;
+    margin-top: 30%;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+  .work
+  {
+padding: 100px;
+display: inline-flex;
+padding : 150px;
+}
+.details-container
+{
+    width: 100%;
+}
+#name{
+    text-align: center;
+    color: black;
+    margin: 60px 10px 0px 10px;
+
+}
+#idd{
+    text-align: center;
+    margin: 10px 0px 20px;
+}
+#box{
+    border: 2px;
+    border-style: solid;
+    display: fixed;
+    height: 80%;
+    width: 20%;
+    margin: 0px 20px 0px 100px;
+}
+#path{
+    text-align: center;
+    
+}
+#logos{
+    width: 50px;
+}
+#text{
+display: inline;
+margin-bottom: 20px;}
+
+#rank{
+    text-align: center;
+}
+li{
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 5px ;
+    margin-top: 10px;
+}
+#info{
+    font-size: large;
+}
+
+.info{
+    border-bottom: 2px solid black;
+    margin: 10px 50px 30px 50px;
+    width: 1000px;
+}
+.detail{
+    border-style: solid;
+    border-radius: 3px;
+}
+.get-started {
+    padding: 5px 20px;
+    border: 2px solid #fd8700;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: 50px;
+    transition: .5s;
+    background-color: #fd8700;
+    color: #fff;
+}
+
+.get-started:hover {
+    color: #2e2e2e;
+    background: #fff;
+}
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+#navbar {
+    line-height: 1.2;
+    position: static;
+    width: none;
+    padding: 10px;
+    font-weight: 200;
+    box-shadow: 0 1px rgba(8, 8, 8, .12);
+    font-size: 20px;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+}
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+#logo {
+    margin-right: 20px;
+    margin-left: 105px;
+}
+.info-button {
+    padding: 8px 25px;
+    border: 2px solid #fd8700;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: auto;
+    transition: .5s;
+    margin:0px 0px 0px 20px;
+    background-color: white;
+    color: black;
+}

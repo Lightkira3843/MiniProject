@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{%block title %} Home {%endblock title%}
+
+{%block body%}
+
+    {% comment %} <header>
+        <nav id="navbar">
+            <a id="logo">Cybertech</a>
+            <a id="home" href="miniprojecthome.html">Home</a>
+            <a id="home" href="category.html">Learning</a>
+            <a id="home">Team</a>
+            <a id="home" href="servicepage.html">Services</a>
+            <a id="home" href="contactus.html">Contact us</a>
+        </nav></header> {% endcomment %}
+
+    <div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<center><p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #fff;">Services   <br></p></center>
+		</div>
+		<a ><div class="s-card"><img src="{% static 'imgs/png/computer-courses.png' %}"><p>Free Online Computer Courses</p></div></a>
+		<a ><div class="s-card"><img src="{% static 'imgs/png/brainbooster.png' %}"><p>Building Concepts for Job</p></div></a>
+		<a ><div class="s-card"><img src="{% static 'imgs/png/online-tutorials.png' %}"><p>Online Video Lectures</p></div></a>
+		<a ><div class="s-card"><img src="{% static 'imgs/png/youtube (1).png' %}"><p>Youtube Video Download</p></div></a>
+		<a ><div class="s-card"><img src="{% static 'imgs/png/p3.png' %}"><p>Performance and Ranking Report</p></div></a>
+		<a ><div class="s-card"><img src="{% static 'imgs/png/discussion.png' %}"><p>Discussion with Our Tutors & Mentors</p></div></a>
+		<a ><div class="s-card"><img src="{% static 'imgs/png/q1.png' %}"><p>Daily Brain Teasing Questions to Improve Coding</p></div></a>
+		<a href="contactus.html"><div class="s-card"><img src="{% static 'imgs/png/help.png' %}"><p>24x7 Online Support</p></div></a>
+	</div>
+
+{%endblock body%}

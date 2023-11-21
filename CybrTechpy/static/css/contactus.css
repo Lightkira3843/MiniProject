@@ -1,0 +1,157 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("backwallpaper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.form-box {
+	width: 380px;
+	height: 650px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff8;
+	padding: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0px 0px 100px rgba(0,0,0,0.4);
+}
+#submit {
+    width: 100%; /* Full-width button */
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; /* Center the button */
+    background: linear-gradient(to right, #FA4B37, #DF2771);
+    color: #fff;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0; /* Increase margin for better spacing */
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    background: transparent;
+    color: black;
+}
+
+.input-group {
+    position: relative;
+    width: 90%; /* Use a percentage for adaptability */
+    max-width: 280px; /* Set a maximum width */
+    transition: .5s;
+    font-size: 13px;
+    color: #010101;
+    margin: 0 auto; /* Center the input group */
+}
+
+.button-box {
+    width: 90%; /* Use a percentage for adaptability */
+    max-width: 220px; /* Set a maximum width */
+    margin: 5% auto; /* Center the button box */
+    position: relative;
+    box-shadow: 0 0 20px 9px rgba(0, 0, 0, .1);
+    border-radius: 30px;
+}
+
+.social-icons {
+    margin: 5% auto; /* Center the social icons */
+    text-align: center;
+}
+
+#follow {
+    width: 50%; /* Full-width button */
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; /* Center the button */
+    background: linear-gradient(to right, #FA4B37, #DF2771);
+    color: #fff;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+ul {
+    align-items: baseline;
+    margin: 10%; /* Adjust margin for better spacing on larger screens */
+    font-weight: 400;
+}
+
+.space {
+    height: 50px;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    transition: background-color 0.3s;
+    
+}
+#navbar {
+    /* background-color: rgb(14, 20, 30); */
+    line-height: 1.2;
+    position: static;
+    width: none;
+    padding: 18px 0px 18px 0px;
+    font-weight: 200;
+    box-shadow: 0 1px rgba(8, 8, 8, .12);
+    font-size: 20px;
+    color: white;
+    display: flex;
+
+}
+
+#logo {
+    margin-right: 20px;
+    margin-left: 105px;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    #logo {
+        margin: 0;
+    }
+
+    #home {
+        display: none;
+    }
+
+    #login {
+        margin-right: 20px;
+    }
+
+    #sign {
+        margin-left: 20px;
+    }
+
+    #navbar {
+        justify-content: space-between;
+    }
+}

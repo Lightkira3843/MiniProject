@@ -1,0 +1,162 @@
+
+body {
+    background-color: #F6F4EB;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+/* SAME */
+h2 {
+    margin: 0px;
+    padding: 0 70px;
+    text-align: center;
+    color: white;
+    font-size: 39px;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition: background-color 0.3s;
+}
+.search-container
+{
+    text-align: left;
+    font-size: 13px;
+    padding: 8px 50px;
+    margin-left: auto
+}
+
+#test {
+    text-align:left;
+    margin-left : 15%;
+    animation: mymove 5s infinite;
+    margin-top: 200px;
+    
+    
+}
+#course:hover {
+    background-color: white; 
+    transform: scale(1.2);
+    transition: background-color 0.3s, transform 0.3s;
+    
+}
+
+#course {
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    background: white;
+    border: 1px solid white;
+    box-shadow: 0px 4px 4px whitesmoke;
+    transition: 0.3s;
+    font-size: 16px;
+   margin: 0px 15px 40px 15px;
+   text-align: center;
+    display: inline-block;
+    position: flex 1 1 auto;
+    transition: background-color 0.3s, transform 0.3s;
+    transform: scale(1);
+    border-radius: 10px;
+}
+
+.space {
+    height: 50px;
+    width: 100%;
+}
+
+#navbar {
+    line-height: 1.2;
+    position: static;
+    width: none;
+    padding: 10px;
+    font-weight: 200;
+    box-shadow: 0 1px rgba(8, 8, 8, .12);
+    font-size: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 20px;
+    margin-left: 105px;
+}
+
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+}
+#sign {
+    font-size: 13px;
+    padding: 8px 16px;
+    background-color: rgb(193, 18, 236);
+    margin-left: 10px;
+    margin-right: 90px;
+    transition: background-color 0.3s, transform 0.3s;
+    transform: scale(1);
+}
+
+@media screen and (max-width: 768px) {
+    #logo {
+        margin: 0;
+    }
+
+    #home {
+        display: none;
+    }
+
+    #login {
+        margin-right: 20px;
+    }
+
+    #sign {
+        margin-left: 20px;
+    }
+
+    #navbar {
+        justify-content: space-between;
+    }
+}
+#content {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    margin-left: 570px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .search-container {
+    display: flex;
+  }
+  
+  .search-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    background-color: #f8f8f8;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    outline: none;
+  }
+  
+  .search-button:hover {
+    background-color: #333;
+    color: #fff;
+  }
